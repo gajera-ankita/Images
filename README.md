@@ -50,3 +50,5 @@ To use the MagaNFT contract, follow these steps:
 1. Deploy magaNFT contract first.
 2. Deploy Magacoin using magaNFT contract address.(The initial supply of 5,000,000 MAGA will be minted by the entity deploying this contract.)
 3. call "setMagaCoinAddress" function using Magacoin contract address.
+
+## How to depoly contract on mainnet.
