@@ -9,7 +9,7 @@ The MagaNFT smart contract facilitates the creation, transfer, and management of
 ## Functions
 
 ### Mint
-- *safeMint*: Using SafeMint, you can securely mint your own MagaNFTs, ensuring a smooth and reliable process within the thriving NFT space.
+- *safeMint:* Using SafeMint, you can securely mint your own MagaNFTs, ensuring a smooth and reliable process within the thriving NFT space.
 
 ### Approve
 - approve: Authorize a designated address to manage the transfer of your MagaNFTs on your behalf, enhancing flexibility in trading and collaboration.
