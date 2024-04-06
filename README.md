@@ -90,27 +90,28 @@ To use the MagaNFT contract, follow these steps:
 
 ## BSC Testnet Transaction
 ```
-### MagaNFT Contract Deployment
-- **Contract Address:** [0x139fa7DeFB26D177474Fdccd4274fE619a22317A](https://testnet.bscscan.com/address/0x139fa7DeFB26D177474Fdccd4274fE619a22317A#code)
-- **Deployment Transaction:** (https://testnet.bscscan.com/tx/0x79572d097400e9e8476584260eede47874a8a03eaa97b173821b5781e4281ff8)
+MagaNFT Contract Deployment
+- Contract Address: [0x139fa7DeFB26D177474Fdccd4274fE619a22317A](https://testnet.bscscan.com/address/0x139fa7DeFB26D177474Fdccd4274fE619a22317A#code)
+- Deployment Transaction: (https://testnet.bscscan.com/tx/0x79572d097400e9e8476584260eede47874a8a03eaa97b173821b5781e4281ff8)
 
-### Magacoin Contract Deployment
-- **Contract Address:** [0xC30573f1D8b50F1Dd7e6E00E37e9dFcbf0757981](https://testnet.bscscan.com/address/0xC30573f1D8b50F1Dd7e6E00E37e9dFcbf0757981#code)
-- **Deployment Transaction:**(https://testnet.bscscan.com/tx/0x4d3819c4202a490b71b0ed69b55be8dda5f8ae20051442987da5ab73de705a27)
+Magacoin Contract Deployment
+- Contract Address: [0xC30573f1D8b50F1Dd7e6E00E37e9dFcbf0757981](https://testnet.bscscan.com/address/0xC30573f1D8b50F1Dd7e6E00E37e9dFcbf0757981#code)
+- Deployment Transaction: (https://testnet.bscscan.com/tx/0x4d3819c4202a490b71b0ed69b55be8dda5f8ae20051442987da5ab73de705a27)
 
 
-## Set Magacoin Address
+Set Magacoin Address
 
-- **Transaction:**(https://testnet.bscscan.com/tx/0x1949f12f735d39ffd143b91a112ada70ebc28e73d2f527f39c4645d8e9dc2896)
+- Transaction: (https://testnet.bscscan.com/tx/0x1949f12f735d39ffd143b91a112ada70ebc28e73d2f527f39c4645d8e9dc2896)
 
-## Other Transactions
+Other Transactions
 
-- **Update NFT Price (onlyOwner):**(https://testnet.bscscan.com/tx/0x203835c6777d5688b6ef1394cf6c7ecbb7763fb42078e5bf8c05daf6c9934e33)
-- **Approve Transaction:**(https://testnet.bscscan.com/tx/0x9449d50523a4f30d806c17304ea38471fbf22b803c9d94422a87e5c1868c335b)
-- **Transfer From Transaction:** (https://testnet.bscscan.com/tx/0x67fdcb3fc343b4b321eae45af91371691dd694d633199111040558077fe410d6) (Note: ClaimMagaCoin transaction failed due to claim time)
-- **Transfer Ownership (onlyOwner):**(https://testnet.bscscan.com/tx/0x84630ce0a0851b7e1caab5493a3f8cf28d0f23f007dd83bb994636c037d31973)
+- Update NFT Price (onlyOwner): (https://testnet.bscscan.com/tx/0x203835c6777d5688b6ef1394cf6c7ecbb7763fb42078e5bf8c05daf6c9934e33)
+- Approve Transaction: (https://testnet.bscscan.com/tx/0x9449d50523a4f30d806c17304ea38471fbf22b803c9d94422a87e5c1868c335b)
+- Transfer From Transaction: (https://testnet.bscscan.com/tx/0x67fdcb3fc343b4b321eae45af91371691dd694d633199111040558077fe410d6)
+                             (Note: ClaimMagaCoin transaction failed due to claim time)
+- Transfer Ownership (onlyOwner): (https://testnet.bscscan.com/tx/0x84630ce0a0851b7e1caab5493a3f8cf28d0f23f007dd83bb994636c037d31973)
 
-## Notes
+Notes
 
 - Ensure you are connected to the BSC Testnet network on your MetaMask to view these transactions and contracts.
 - Check transaction details for gas fees and confirmations.
