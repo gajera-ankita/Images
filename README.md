@@ -51,4 +51,39 @@ To use the MagaNFT contract, follow these steps:
 2. Deploy Magacoin using magaNFT contract address.(The initial supply of 5,000,000 MAGA will be minted by the entity deploying this contract.)
 3. call "setMagaCoinAddress" function using Magacoin contract address.
 
-## How to depoly contract on mainnet.
+## How to depoly contract on mainnet
+
+## Prerequisites
+
+- Install the MetaMask browser extension and set up your Ethereum/Avalanche-C chain account.
+- Access Remix IDE in your web browser.
+
+## Steps
+
+1. **Compile Smart Contract:**
+   - Open Remix and go to the "Solidity Compiler" tab.
+   - Select the appropriate compiler version for your contract.
+   - Write or import your smart contract code.
+   - Click on the "Compile" button to compile the contract.
+
+2. **Deploy Contract:**
+   - Switch to the "Deploy & Run Transactions" tab in Remix.
+   - Choose "Injected Provider MetaMask" as the environment to connect Remix with MetaMask.
+   - Ensure MetaMask is unlocked and set to the Avalanche-C chain mainnet.
+   - Select the contract to deploy from the dropdown menu.
+   - Enter any constructor parameters required by your contract (if applicable).
+   - Click on the "Deploy" button to initiate the deployment.
+
+3. **Confirm Transaction in MetaMask:**
+   - MetaMask will open a popup window showing the deployment transaction details.
+   - Review the gas fee and other details.
+   - Click "Confirm" to submit the transaction.
+
+4. **View Contract Address:**
+   - After successful deployment, Remix will display the deployed contract's address.
+   - Copy this contract address for future interactions with your contract.
+
+## Troubleshooting
+
+- If the deployment fails, check for error messages in Remix or MetaMask for more details.
+- Ensure your MetaMask account has enough ETH/AVAX to cover gas fees for the transaction.
