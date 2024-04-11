@@ -1,23 +1,28 @@
-# MagaNFT Smart Contract Documentation
+his is a smart contract written in Solidity, which is a programming language for implementing smart contracts on Ethereum blockchain. 
 
-This README provides an overview of the functionalities and usage of the MagaNFT smart contract.
+The contract contains several parts including ERC20 Token interface definition, Vesting contract definition with its various functionalities like creating vesting schedule for investors, viewing completed vesting months, view total vesting amount available for withdrawal, and withdraw tokens based on a vesting schedule. 
 
-## Overview
+Here's a brief overview of what each part does:
 
-The MagaNFT smart contract facilitates the creation, transfer, and management of MagaNFTs within the NFT ecosystem. It includes functions for minting NFTs, managing approvals, transferring ownership, and more.
+1. **ERC20 Token interface** - This defines a set of functions required by ERC20 tokens to interact with smart contracts on Ethereum. It includes basic token operations like transfer, transferFrom and balanceOf. 
 
-## Functions
+2. **Vesting contract** - This contract manages vesting schedules for investors. 
 
-### Mint
-- *safeMint:* Using SafeMint, you can securely mint your own MagaNFTs, ensuring a smooth and reliable process within the thriving NFT space.
+   - The constructor sets the token contract address. 
+   
+   - The createVesting function sets up a vesting schedule for each investor by initializing various parameters such as locked wallet amount, vesting time, cliff period, starting withdrawable amount, unlock date etc. 
+   
+   - The CompletedVestingMonth function allows users to view the number of completed vesting months for a specific user. 
+   
+   - The withdrawableAmount function allows users to view the total vesting amount available for withdrawal by a specific user. 
+   
+   - The withdrawTokens function allows users to withdraw tokens based on a vesting schedule. 
+   
+   - The contract also emits an event whenever tokens are withdrawn. 
+   
+This contract seems to be intended to be used for token vesting schedules on Ethereum blockchain. The token holder can create a vesting schedule for investors by adding wallet addresses, token amounts, vesting times, cliff periods, and starting withdrawable percentages of tokens for each wallet. The contract will automatically transfer tokens to this contract upon creation of vesting schedule and holders can withdraw their tokens on schedule. The contract also has features to view total vesting amount available for withdrawal by a specific user and to view completed vesting months for a specific user. 
 
-### Approve
-- approve: Authorize a designated address to manage the transfer of your MagaNFTs on your behalf, enhancing flexibility in trading and collaboration.
-- setApprovalForAll: Conveniently authorize third-party operators to manage your MagaNFTs, streamlining transactions and collaborations.
-
-### Transfers
-- transferFrom: Securely transfer MagaNFTs to another user, facilitating smooth and trusted transactions.
-- safeTransferFrom: Confidently transfer your MagaNFTs, ensuring secure and seamless transactions.
+Please note that this is a simple contract for understanding purposes only and lacks important security measures like access control (only token holder can create vesting) or input validation checks (like max wallet limit). In production level smart contracts, these checks should be more robust.our MagaNFTs, ensuring secure and seamless transactions.
 
 ### Claiming Rewards
 - claimMagaCoin: Securely claim MagaCoins associated with specific MagaNFTs, ensuring fair distribution and incentivizing NFT ownership.
